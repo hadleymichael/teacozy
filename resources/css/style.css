@@ -5,6 +5,7 @@ html {
   background-color: black;
   opacity: .9;
   text-align: center;
+
 }
 /*Header & Nav */
 
@@ -30,6 +31,7 @@ html {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  padding-right: 15px;
 }
 
 
@@ -44,11 +46,14 @@ html {
 .largeimg {
   display: flex;
   height: 700px;
-  width: 1200px;
+  width: 1200px auto;
   background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 20;
   align-items: center;
-  padding-top: 70px;
+  justify-content: center;
+
 }
 
 .mission {
@@ -123,6 +128,7 @@ html {
 .locations {
   background-image: url("../images/img-locations-background.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   height: 500px;
   width: 1200px auto;
   display: flex;
