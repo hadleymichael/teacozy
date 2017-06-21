@@ -128,7 +128,7 @@ html {
   display: flex;
   flex-direction: column;
   align-content: center;
-  
+
 
 }
 
@@ -185,4 +185,9 @@ html {
 
 .address3 span {
   padding: 20px;
+}
+/*footer*/
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
