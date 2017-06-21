@@ -62,6 +62,7 @@ html {
 .tom {
   align-items: center;
   width: 1000px auto;
+  height: 700px;
 
 }
 .tomimgs1{
@@ -115,4 +116,73 @@ html {
 
 .tomimgs span {
   padding: 10px;
+}
+
+/*Locations*/
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  height: 500px;
+  width: 1200px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+
+}
+
+.addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.address1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+.address1 span {
+  padding: 20px;
+}
+
+.address2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+.address2 span {
+  padding: 20px;
+}
+
+.address3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+.address3 span {
+  padding: 20px;
 }
