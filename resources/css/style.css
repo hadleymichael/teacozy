@@ -1,0 +1,118 @@
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+/*Header & Nav */
+
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  z-index: 10;
+  background-color: black;
+
+}
+
+.header img {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+
+.nav span {
+  display: inline-block;
+  padding-right: 20px;
+  text-decoration: underline;
+
+}
+/*main - Mission + Image*/
+
+.largeimg {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  z-index: 20;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.mission {
+  display: block;
+  width: 100%;
+  background-color: black;
+}
+
+/*tea of the month*/
+
+.tom {
+  align-items: center;
+  width: 1000px auto;
+
+}
+.tomimgs1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px auto;
+
+
+}
+.tomimgs2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px auto;
+}
+
+.berry {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.spiced {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.donuts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px
+
+}
+.myrtle {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.bedford {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.tomimgs img {
+  height: 200px;
+  width: 300px;
+}
+
+.tomimgs span {
+  padding: 10px;
+}
