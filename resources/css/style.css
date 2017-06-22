@@ -7,6 +7,10 @@ html {
   text-align: center;
 
 }
+
+body {
+  margin: 0;
+}
 /*Header & Nav */
 
 .header {
@@ -67,9 +71,9 @@ html {
 .tom {
   align-items: center;
   width: 1000px auto;
-  height: 700px;
-
 }
+
+
 .tomimgs1{
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +154,6 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
@@ -166,7 +169,6 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
@@ -182,7 +184,6 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
